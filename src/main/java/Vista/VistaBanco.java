@@ -8,7 +8,7 @@ package Vista;
  *
  * @author mlata
  */
-public class VistaBanco extends javax.swing.JFrame {
+public class VistaBanco extends javax.swing.JInternalFrame  {
 
     /**
      * Creates new form VistaBanco
@@ -26,21 +26,390 @@ public class VistaBanco extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Record = new javax.swing.JDialog();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        salirButton1 = new javax.swing.JButton();
+        salirButton2 = new javax.swing.JButton();
+        salirButton3 = new javax.swing.JButton();
+        salirButton4 = new javax.swing.JButton();
+        salirButton5 = new javax.swing.JButton();
+        salirButton6 = new javax.swing.JButton();
+        salirButton7 = new javax.swing.JButton();
+        Clientes = new javax.swing.JDialog();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        salirButton8 = new javax.swing.JButton();
+        salirButton9 = new javax.swing.JButton();
+        salirButton10 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        CancelarButton = new javax.swing.JButton();
+        CancelarButton1 = new javax.swing.JButton();
+        CancelarButton2 = new javax.swing.JButton();
+        CancelarButton3 = new javax.swing.JButton();
+        CancelarButton4 = new javax.swing.JButton();
+        CancelarButton5 = new javax.swing.JButton();
+
+        jLabel8.setText("Ordenar por tiempo");
+
+        jLabel9.setText("Ordenar por nombre");
+
+        jLabel10.setText("Ordenar por apellido");
+
+        jLabel11.setText("Ordenar por atenciones");
+
+        salirButton1.setText("Aplicar");
+        salirButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton1ActionPerformed(evt);
+            }
+        });
+
+        salirButton2.setText("Cancelar");
+        salirButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton2ActionPerformed(evt);
+            }
+        });
+
+        salirButton3.setText("Aplicar");
+        salirButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton3ActionPerformed(evt);
+            }
+        });
+
+        salirButton4.setText("Aplicar");
+        salirButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton4ActionPerformed(evt);
+            }
+        });
+
+        salirButton5.setText("Aplicar");
+        salirButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton5ActionPerformed(evt);
+            }
+        });
+
+        salirButton6.setText("Guardar");
+        salirButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton6ActionPerformed(evt);
+            }
+        });
+
+        salirButton7.setText("Mostrar");
+        salirButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton7ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout RecordLayout = new javax.swing.GroupLayout(Record.getContentPane());
+        Record.getContentPane().setLayout(RecordLayout);
+        RecordLayout.setHorizontalGroup(
+            RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RecordLayout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addGroup(RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RecordLayout.createSequentialGroup()
+                        .addComponent(salirButton2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 120, Short.MAX_VALUE)
+                        .addComponent(salirButton7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(salirButton6))
+                    .addGroup(RecordLayout.createSequentialGroup()
+                        .addComponent(jLabel8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(salirButton3))
+                    .addGroup(RecordLayout.createSequentialGroup()
+                        .addComponent(jLabel11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(salirButton5))
+                    .addGroup(RecordLayout.createSequentialGroup()
+                        .addComponent(jLabel9)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(salirButton1))
+                    .addGroup(RecordLayout.createSequentialGroup()
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(salirButton4)))
+                .addGap(16, 16, 16))
+        );
+        RecordLayout.setVerticalGroup(
+            RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RecordLayout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addGroup(RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel8)
+                    .addComponent(salirButton3))
+                .addGap(12, 12, 12)
+                .addGroup(RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(salirButton1)
+                    .addComponent(jLabel9))
+                .addGap(12, 12, 12)
+                .addGroup(RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(salirButton4)
+                    .addComponent(jLabel10))
+                .addGap(16, 16, 16)
+                .addGroup(RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(salirButton5)
+                    .addComponent(jLabel11))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addGroup(RecordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(salirButton2)
+                    .addComponent(salirButton6)
+                    .addComponent(salirButton7))
+                .addGap(26, 26, 26))
+        );
+
+        jLabel12.setText("Clientes atendidos");
+
+        jLabel13.setText("Clientes agendados");
+
+        salirButton8.setText("Cancelar");
+        salirButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton8ActionPerformed(evt);
+            }
+        });
+
+        salirButton9.setText("Lista de clientes agendados");
+        salirButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton9ActionPerformed(evt);
+            }
+        });
+
+        salirButton10.setText("Lista de clientes atendidos");
+        salirButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salirButton10ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout ClientesLayout = new javax.swing.GroupLayout(Clientes.getContentPane());
+        Clientes.getContentPane().setLayout(ClientesLayout);
+        ClientesLayout.setHorizontalGroup(
+            ClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ClientesLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(salirButton9)
+                .addGap(98, 98, 98))
+            .addGroup(ClientesLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(ClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel12)
+                    .addComponent(jLabel13)
+                    .addComponent(salirButton8))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ClientesLayout.createSequentialGroup()
+                .addContainerGap(111, Short.MAX_VALUE)
+                .addComponent(salirButton10)
+                .addGap(107, 107, 107))
+        );
+        ClientesLayout.setVerticalGroup(
+            ClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ClientesLayout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addComponent(jLabel12)
+                .addGap(12, 12, 12)
+                .addComponent(salirButton10)
+                .addGap(26, 26, 26)
+                .addComponent(jLabel13)
+                .addGap(18, 18, 18)
+                .addComponent(salirButton9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+                .addComponent(salirButton8)
+                .addGap(26, 26, 26))
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel3.setText("Clientes en cola");
+
+        jLabel4.setText("Atender a un cliente");
+
+        jLabel5.setText("Citas pendientes");
+
+        jLabel6.setText("Historial de ventanilla");
+
+        jLabel7.setText("Clientes");
+
+        CancelarButton.setText("Mostrar");
+        CancelarButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarButtonActionPerformed(evt);
+            }
+        });
+
+        CancelarButton1.setText("Cancelar");
+        CancelarButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarButton1ActionPerformed(evt);
+            }
+        });
+
+        CancelarButton2.setText("Record");
+        CancelarButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarButton2ActionPerformed(evt);
+            }
+        });
+
+        CancelarButton3.setText("Atender");
+        CancelarButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarButton3ActionPerformed(evt);
+            }
+        });
+
+        CancelarButton4.setText("Mostrar");
+        CancelarButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarButton4ActionPerformed(evt);
+            }
+        });
+
+        CancelarButton5.setText("Mostrar");
+        CancelarButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarButton5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 168, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CancelarButton)
+                            .addComponent(CancelarButton2)
+                            .addComponent(CancelarButton3)
+                            .addComponent(CancelarButton4)
+                            .addComponent(CancelarButton5))
+                        .addGap(30, 30, 30))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(CancelarButton1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(CancelarButton))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(CancelarButton3))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(CancelarButton5))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(CancelarButton2))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(CancelarButton4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(CancelarButton1)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void CancelarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CancelarButtonActionPerformed
+
+    private void CancelarButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButton2ActionPerformed
+        Record.setSize(400,300);
+        Record.setLocation(100, 100);
+        Record.setVisible(true);
+    }//GEN-LAST:event_CancelarButton2ActionPerformed
+
+    private void CancelarButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CancelarButton3ActionPerformed
+
+    private void CancelarButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButton4ActionPerformed
+        Clientes.setSize(400,300);
+        Clientes.setLocation(100, 100);
+        Clientes.setVisible(true);
+    }//GEN-LAST:event_CancelarButton4ActionPerformed
+
+    private void CancelarButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CancelarButton5ActionPerformed
+
+    private void salirButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton1ActionPerformed
+
+    private void salirButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton2ActionPerformed
+
+    private void salirButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton3ActionPerformed
+
+    private void salirButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton4ActionPerformed
+
+    private void salirButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton5ActionPerformed
+
+    private void salirButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton6ActionPerformed
+
+    private void salirButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton7ActionPerformed
+
+    private void salirButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton8ActionPerformed
+
+    private void salirButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton9ActionPerformed
+
+    private void salirButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_salirButton10ActionPerformed
+
+    private void CancelarButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButton1ActionPerformed
+      this.dispose();
+    }//GEN-LAST:event_CancelarButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +447,34 @@ public class VistaBanco extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton CancelarButton;
+    private javax.swing.JButton CancelarButton1;
+    private javax.swing.JButton CancelarButton2;
+    private javax.swing.JButton CancelarButton3;
+    private javax.swing.JButton CancelarButton4;
+    private javax.swing.JButton CancelarButton5;
+    private javax.swing.JDialog Clientes;
+    private javax.swing.JDialog Record;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JButton salirButton1;
+    private javax.swing.JButton salirButton10;
+    private javax.swing.JButton salirButton2;
+    private javax.swing.JButton salirButton3;
+    private javax.swing.JButton salirButton4;
+    private javax.swing.JButton salirButton5;
+    private javax.swing.JButton salirButton6;
+    private javax.swing.JButton salirButton7;
+    private javax.swing.JButton salirButton8;
+    private javax.swing.JButton salirButton9;
     // End of variables declaration//GEN-END:variables
 }
