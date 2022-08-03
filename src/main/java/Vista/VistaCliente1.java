@@ -65,6 +65,11 @@ public class VistaCliente1 extends javax.swing.JInternalFrame  {
         jButton3.setText("Guardar");
 
         jButton4.setText("Salir");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout RegistroLayout = new javax.swing.GroupLayout(Registro.getContentPane());
         Registro.getContentPane().setLayout(RegistroLayout);
@@ -125,6 +130,11 @@ public class VistaCliente1 extends javax.swing.JInternalFrame  {
         jButton5.setText("Guardar");
 
         jButton6.setText("Salir");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jTextField6.setText("dd/mm");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
@@ -278,6 +288,14 @@ public class VistaCliente1 extends javax.swing.JInternalFrame  {
     private void CancelarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarButtonActionPerformed
         this.dispose();
     }//GEN-LAST:event_CancelarButtonActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+       Registro.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        Agendar.dispose();
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
